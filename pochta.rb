@@ -21,8 +21,7 @@ class Info
    end
 
 end
-#print("Enter the tracking number: ")
-#inf = gets
-inst = Info.new("LC118255675CN")
-#inst = Info.new(inf.slice(..-2))
+print("Enter the tracking number: ")
+inf = gets
+inst = Info.new(inf.slice(..-2))
 inst.prin
